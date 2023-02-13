@@ -1,0 +1,118 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./index.html",
+    "./src/**/*.{vue,js,ts,jsx,tsx}",
+  ],
+  theme: {
+    screens: {
+      'tablet': '640px',
+      'laptop': '1024px',
+      'desktop': '1280px',
+    },
+    fontSize: {
+      'icon-small': '24px',
+      'icon-medium': '30px',
+      'icon-large': '42px',
+      '9': '9px',
+      '10': '10px',
+      '12': '12px',
+      '14': '14px',
+      '16': '16px',
+      '18': '18px',
+      '20': '20px',
+      '22': '22px',
+      '24': '24px',
+      '26': '26px',
+      '28': '28px',
+      '30': '30px',
+      '32': '32px',
+      '36': '36px',
+      '40': '40px',
+      '48': '48px',
+      '60': '60px'
+    },
+    lineHeight: {
+      '9': '9px',
+      '10': '10px',
+      '12': '12px',
+      '14': '14px',
+      '16': '16px',
+      '18': '18px',
+      '20': '20px',
+      '22': '22px',
+      '24': '24px',
+      '26': '26px',
+      '28': '28px',
+      '30': '30px',
+      '32': '32px',
+      '36': '36px',
+      '40': '40px',
+      '48': '48px',
+      '60': '60px'
+    },
+    spacing: {
+      '0': '0px',
+      '1': '4px',
+      '2': '8px',
+      '3': '12px',
+      '4': '16px',
+      '5': '20px',
+      '6': '24px',
+      '7': '28px',
+      '8': '32px',
+      '9': '36px',
+      '10': '40px',
+      '11': '44px',
+      '12': '48px',
+      '13': '52px',
+      '14': '56px',
+      '15': '60px',
+      '16': '64px',
+      '17': '68px',
+      '18': '72px',
+      '19': '76px',
+      '20': '80px',
+    },
+    extend: {
+      colors: {
+        'main': '#333333',
+        'interface-1': '#d9644a',
+        'interface-2': '#4ea686',
+        'interface-3': '#343e40',
+        'interface-4': '#bf613f'
+      },
+      zIndex: {
+        '10000': '10000',
+        '1000': '1000',
+      },
+      backgroundImage: {
+        'app-border': "url('/src/assets/images/borders.png')",
+      },
+      backgroundColor: {
+        'card-caption': "rgba(255, 255, 255, 0.8)",
+        'dialog-backdrop': "rgba(0, 0, 0, 0.8)",
+      },
+      gridColumn: {
+        'span-12': 'span 12',
+        'span-16': 'span 16',
+        'span-18': 'span 18',
+        'span-20': 'span 20',
+        'span-22': 'span 22',
+        'span-24': 'span 24',
+        'span-26': 'span 26',
+        'span-28': 'span 28',
+        'span-30': 'span 30',
+        'span-32': 'span 32',
+        'span-34': 'span 34',
+        'span-35': 'span 35',
+        'span-36': 'span 36'
+      },
+      gridRowEnd: {
+        'span-1': 'span 1',
+        'span-2': 'span 2'
+      }
+    },
+  },
+  plugins: [],
+}
